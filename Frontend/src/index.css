@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.instructions {
+  padding: 10px;
+  background-color: papayawhip;
+  width: fit-content;
+  border-radius: 10px;
+  width: 255px;
+}
+
+.form {
+  border-radius: 20px;
+  background-color: paleturquoise;
+  right: 0%;
+  width: fit-content;
+  height: fit-content;
+  max-width: 400px;
+  padding: 10px;
+  font-weight: 600;
+}
+.form input {
+  margin-bottom: 10px;
+}
+
+/* .form label {
+  font-size: 0.8rem;
+  margin-bottom: 3px;
+} */
+#username,
+#password,
+#confirm_password {
+  border: 0.5px solid rgb(173, 172, 172);
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.form button {
+  /* margin-left: 134px; */
+  background: #f2f2f2;
+  border: 0.5px solid rgb(173, 172, 172);
+  border-radius: 3px;
+  width: 275px;
+  font-size: 1.1rem;
+  box-shadow: 2px 2px #888888;
+  height: 50px;
+}
+
+.form button:focus:not(:active) {
+  background: #d6d5d5;
+  box-shadow: none;
+}
+.success {
+  /* height: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  margin-left: 10px;
+}
+
+.signin_container {
+  border-radius: 20px;
+  background-color: paleturquoise;
+  right: 0%;
+  width: fit-content;
+  height: fit-content;
+  max-width: 400px;
+  padding: 10px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.signin_container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin_container button {
+  margin-top: 10px;
+  background: #f2f2f2;
+  border: 0.5px solid rgb(173, 172, 172);
+  border-radius: 3px;
+  width: 275px;
+  font-size: 1.1rem;
+  box-shadow: 2px 2px #888888;
+  height: 50px;
+}
+.signin_container button:focus:not(:active) {
+  background: #d6d5d5;
+  box-shadow: none;
+}
+.signin_container label {
+  margin-top: 10px;
+}
+
+.GoBackFlexGrow {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
