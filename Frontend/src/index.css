@@ -1,9 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.App,
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Source Sans Pro" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -15,7 +40,8 @@ code {
 }
 
 .App {
-  height: 100vh;
+  position: relative;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
